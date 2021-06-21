@@ -15,3 +15,11 @@ In the project directory, you can run:
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+
+Before testing make sure you have already running smart bank api in tomcat 
+> **Smar bank Api is backend application built in java Spring boot which has the services to be consumed by react app like adding,removing,deleting, resetting products which reflects in the total number of products into our shopping cart.**
+
+ **Once the back end service is started you can change the port in the constants file under src>Constants.js .**
+**Point your react App to backend service URL by updating below line and restart your app by npm start.**
+ **export const API_URL = "http://localhost:8082/" .**
